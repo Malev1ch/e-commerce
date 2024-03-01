@@ -9,6 +9,9 @@ const Product = ({ item }) => {
       <h3>{item.title}</h3>
       <p>{item.description}</p>
       <b>${item.price}</b>
+      <p>
+        <b>Category</b>: {item.category}
+      </p>
     </div>
   );
 };
